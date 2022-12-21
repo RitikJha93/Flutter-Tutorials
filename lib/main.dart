@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import './Calculator/calculatorWidget.dart';
 import './bottomNavigationBar/bottomNavigationbar.dart';
 import './pullToRefreshWidget/pullToRefresh.dart';
 import './splashScreen/splashScreen.dart';
@@ -15,9 +16,9 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return  MaterialApp(
+    return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: BottomNavigation(),
+      home: Calculator(),
     );
   }
 }
