@@ -10,10 +10,10 @@ class MyButton extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return InkWell(
-      onTap: buttonTapped,
-      child: Padding(
-        padding: EdgeInsets.all(8),
+    return Padding(
+      padding: EdgeInsets.all(8),
+      child: InkWell(
+        onTap: buttonTapped,
         child: ClipRRect(
           borderRadius: BorderRadius.circular(20),
           child: Container(

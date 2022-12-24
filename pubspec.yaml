@@ -43,6 +43,8 @@ dependencies:
   liquid_pull_to_refresh: ^3.0.1
   circle_bottom_navigation_bar: ^1.0.0
   math_expressions: ^2.3.1
+  percent_indicator: ^4.2.2
+  animate_do: ^3.0.2
 
 dev_dependencies:
   flutter_test:
@@ -71,6 +73,7 @@ flutter:
     - assets/images/book.gif
     - assets/images/Shawarma.gif
     - assets/images/chocolate.gif
+    - assets/images/travel.png
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware
