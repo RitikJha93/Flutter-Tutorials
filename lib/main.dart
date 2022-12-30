@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_tutorial/animatedSigninScreen/animatedScreen.dart';
-import 'package:flutter_tutorial/shopping/shoppingHomePage.dart';
+import './animatedSigninScreen/animatedScreen.dart';
+import './shopping/shoppingHomePage.dart';
+import './travelApp/travelScreen.dart';
 import './Calculator/calculatorWidget.dart';
 import './bottomNavigationBar/bottomNavigationbar.dart';
 import './pullToRefreshWidget/pullToRefresh.dart';
@@ -20,7 +21,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return const MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: ShoppingHomePage(),
+      home: TravelScreen(),
     );
   }
 }
