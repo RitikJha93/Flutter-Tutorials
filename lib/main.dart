@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_tutorial/contactList/Contacts.dart';
 import './animatedSigninScreen/animatedScreen.dart';
 import './shopping/shoppingHomePage.dart';
 import './travelApp/travelScreen.dart';
@@ -8,7 +9,7 @@ import './pullToRefreshWidget/pullToRefresh.dart';
 import './splashScreen/splashScreen.dart';
 import './carouselSlider/carousel.dart';
 import './onboardingWidgets/onboardingScreen.dart';
-import 'sliderWidgets/slider.dart';
+import './sliderWidgets/slider.dart';
 
 void main() {
   runApp(const MyApp());
@@ -19,9 +20,9 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const MaterialApp(
+    return  MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: TravelScreen(),
+      home: Contacts(),
     );
   }
 }
