@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_tutorial/contactList/Contacts.dart';
+import 'package:flutter_tutorial/productDetail/ProductDetail.dart';
 import './animatedSigninScreen/animatedScreen.dart';
 import './shopping/shoppingHomePage.dart';
 import './travelApp/travelScreen.dart';
@@ -20,9 +21,9 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return  MaterialApp(
+    return const MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: Contacts(),
+      home: ProductDetail(),
     );
   }
 }
