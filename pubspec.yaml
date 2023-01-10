@@ -75,6 +75,13 @@ flutter:
     - assets/images/Shawarma.gif
     - assets/images/chocolate.gif
     - assets/images/travel.png
+    - assets/images/user.png
+    - assets/images/basketball.png
+    - assets/images/car.png
+    - assets/images/football.png
+    - assets/images/crown.png
+    - assets/images/dice.png
+    - assets/images/strategy.png
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware

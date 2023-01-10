@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_tutorial/contactList/Contacts.dart';
+import 'package:flutter_tutorial/gamingScreen/gameScreen.dart';
 import 'package:flutter_tutorial/productDetail/ProductDetail.dart';
 import './animatedSigninScreen/animatedScreen.dart';
 import './shopping/shoppingHomePage.dart';
@@ -23,7 +24,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return const MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: ProductDetail(),
+      home: GameScreen(),
     );
   }
 }
